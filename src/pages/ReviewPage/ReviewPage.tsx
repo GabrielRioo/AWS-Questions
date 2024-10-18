@@ -30,7 +30,7 @@ const ReviewPage: React.FC = () => {
   };
 
   const handleFinish = () => {
-    navigate("/");
+    navigate("/result");
   };
 
   return (
@@ -69,13 +69,10 @@ const ReviewPage: React.FC = () => {
             ))}
           </tbody>
         </table>
-
-        
       </div>
-
       <div className="finishButton">
-          <Button onClick={handleFinish} text="Finalizar Prova" />
-        </div>
+        <Button onClick={handleFinish} text="Finalizar Prova" />
+      </div>
     </div>
   );
 };

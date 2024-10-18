@@ -1,0 +1,50 @@
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 5em;
+  }
+  
+  .result-summary {
+    margin-bottom: 20px;
+  }
+  
+  .performance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+    background-color: #414E5F;
+  }
+  
+  .performance-table th, .performance-table td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .performance-table th {
+    background-color: #F89D00;
+  }
+
+  .performance-table tbody tr:nth-of-type(even) {
+    background-color: #526072;
+    color: #fff;
+  }
+
+  .performance-table tbody tr:hover {
+    opacity: .80;
+    cursor: pointer;
+  }
+  
+  .result-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .result-actions button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 2em;
+  }

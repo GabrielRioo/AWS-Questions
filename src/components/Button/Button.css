@@ -34,7 +34,7 @@
     transition: .2s;
 }
 
-.button:hover {
+.button-large:hover, .button-small:hover {
     background-color: #ffb535;
     transition: .2s;
 }
